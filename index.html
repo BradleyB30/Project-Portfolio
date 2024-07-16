@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+      <header class="header">
+
+          <a href="#home" class="logo">
+              Bradley <span>Botros</span>
+          </a>
+
+          <i class="bx bx-menu" id="menu-icon"></i>
+
+          <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+           <button class="gradient-btn">Contact Me</button> 
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, It's <span>Bradley</span></h1>
+          <h3>
+            I'm Studying <span>Computer Science</span>
+          </h3>
+          <p></p>
+
+          <div class="social-icons">
+            <a href="https://github.com/BradleyB30" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/bradley-botros-397292171/" target="_blank">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+          </div>
+
+          <div class="btn-group">
+              <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+
+        <div class="home-img">
+          <img src="IMG_8451 (1).jpg" alt="">
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img">
+             <img src="IMG_8451 (1).jpg" alt="">
+        </div>
+
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I am a Computer Science student at Cal State Fullerton, set to graduate in 2027. My academic journey has allowed me to gain experience in C++, Python for machine learning, and HTML/CSS/JavaScript through various projects and collaborations. In C++, I have developed applications such as an Expense Tracker and a Bank Management System, honing my skills in software development. My machine learning endeavors include creating a Breast Cancer Prediction Model and a Mushroom Classification Model, where I applied my knowledge to real-world data challenges. Additionally, as a member of the ACM club’s open source software team, I have enhanced my expertise in web technologies by working on collaborative projects using HTML, CSS, and JavaScript. </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+      </section>
+
+      <section class="services" id="services">
+
+          <h2 class="heading">Skills</h2>
+
+          <div class="services-container">
+               <div class="service-box">
+                    <div class="service-info">
+                      <h4>Machine Learning</h4>
+                      <p>In my machine learning projects, I rely heavily on Python for its vast array of libraries and ease of use. TensorFlow and PyTorch are my go-tos for building and training models, while pandas and numpy help me preprocess data. For visualizing results, I turn to matplotlib and seaborn, creating detailed graphs and charts. Scikit-learn is essential for implementing standard algorithms and evaluating model performance, making it a crucial part of my workflow.</p>
+                    </div>
+               </div>
+                <div class="service-box">
+                     <div class="service-info">
+                       <i class="bx bxl-code"></i>
+                       <h4>C++</h4>
+                       <p>In my C++ projects, I've explored various applications and developed multiple systems. One of my notable projects is a bank management system, which involved creating functionalities for managing accounts, transactions, and user data efficiently. Another exciting project I worked on is a PingPong game, where I used the raylib library to handle graphics and game mechanics. These projects allowed me to deepen my understanding of C++ programming and gain practical experience in both system development and game design. Through these endeavors, I've honed my skills and built a solid foundation in C++.</p>
+                     </div>
+                </div>
+                <div class="service-box">
+                  <div class="service-info">
+                    <i class="bx bxl-code-curly"></i>
+                    <h4>HTML/CSS/JavaScript</h4>
+                    <p>In my web development projects, I’ve crafted various websites and applications using HTML, JavaScript, and CSS. A prime example is this very portfolio, where I designed a responsive and visually engaging site to showcase my work. My experience also extends to being part of the ACM club’s open source software team, where we collaborated on projects using these technologies to build and maintain web applications. Working in a team environment allowed me to refine my skills in creating interactive user interfaces and implementing dynamic features. These experiences have been instrumental in shaping my approach to both individual and collaborative web development tasks.</p>
+                  </div>
+             </div>
+               
+          </div>
+      </section>
+
+      <section class="project" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+          <div class="project-card">
+            <img src="Mushroomimg.jpeg" alt="">
+            <h3>Mushroom Classification Model</h3>
+            <p>This project is a web application designed for binary classification of mushrooms as either edible or poisonous using machine learning algorithms. Built with Streamlit, the app features three classifiers: Support Vector Machine (SVM), Logistic Regression, and Random Forest.</p>
+            <a href="https://github.com/BradleyB30/MushroomEP" target="_blank" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="PingPong.png" alt="">
+          <h3>PingPong with Opponent</h3>
+          <p>This project is a PingPong game made using C++ and the raylib library. The game features an automatic opponent, providing a challenging gameplay experience. It includes essential elements like player controls, collision detection, scoring, and visual enhancements.</p>
+          <a href="https://github.com/BradleyB30/PingPong" target="_blank" class="btn">Review Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="CancerPmodel.webp" alt="">
+        <h3>Breast Cancer Prediction Model</h3>
+        <p>This project involves classifying breast cancer using a Neural Network built with TensorFlow and Keras in Python. The neural network is trained to analyze features of cell nuclei in breast cancer biopsies to determine the presence of cancer. Early detection through this method can significantly improve survival rates.</p>
+        <a href="https://github.com/BradleyB30/BreastCancerPrediction" target="_blank" class="btn">Review Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="moneyimage.jpeg" alt="">
+      <h3>Expense Tracker</h3>
+      <p>Expense Tracker is a C++ program designed to help users manage their expenses. It allows users to add expenses along with categories, amounts, and descriptions, and then displays all the entered expenses for easy tracking.</p>
+      <a href="https://github.com/BradleyB30/ExpenseTracker" target="_blank" class="btn">Review Project</a>
+  </div>
+
+  <div class="project-card">
+    <img src="BankM.png" alt="">
+    <h3>Bank Management System </h3>
+    <p>This C++ program implements a comprehensive bank management system. It allows users to create and manage bank accounts, perform deposits and withdrawals, check balances, and view transaction histories. The system ensures secure access through authentication and provides a user-friendly interface for efficient banking operations. This project demonstrates key concepts in C++ programming and system development.</p>
+    <a href="https://github.com/BradleyB30/Bank" target="_blank" class="btn">Review Project</a>
+</div>
+
+<div class="project-card">
+  <img src="calc3.png" alt="">
+  <h3>Simple Calculator </h3>
+  <p>This is a basic calculator implemented using HTML, CSS, and JavaScript. It provides essential arithmetic operations like addition, subtraction, multiplication, and division, all within a modern and responsive interface.</p>
+  <a href="https://github.com/BradleyB30/JS-Calculator" target="_blank" class="btn">Review Project</a>
+</div>
+
+
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social-icons">
+          <a href="#">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="#">
+            <i class="bxl-linkedin-square"></i>
+          </a>
+        </div>
+
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#services">Skills</a>
+          </li>
+
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          © Bradley Botros | All Rights Reserved
+        </p>
+      </footer>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
